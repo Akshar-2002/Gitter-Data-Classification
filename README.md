@@ -74,5 +74,5 @@ Each xpred.csv file consists of 35 columns:
 - The last column corresponds to the ground truth labels.
 
 Each xpredp.csv file consists of 52 columns:
-- Each set of 3 columns consist of the class probabilities for each data point for the 17 one vs one classification algorithms applied.
+- Each set of 3 columns consist of the class probabilities for each data point for the 17 one vs rest classification algorithms applied.
 - The last column corresponds to the ground truth labels.
