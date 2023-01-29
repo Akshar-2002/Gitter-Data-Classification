@@ -2,7 +2,7 @@
 
 Gitter is a modern instant messaging and collaboration platform that has revolutionized team communications and project coordination by providing a user-friendly way of organizing conversations.
 
-GitterCom Dataset was leveraged for the project. It is a dataset of developers in open-source communities in Gitter consisting of 10,000 messages.
+The dataset leveraged for the project consists of 10,000 messages from the developers in open-source communities in Gitter.
 
 The objective of the project is to build various models to classify the purpose of the messages in the discussions on the Gitter Platform and compare the performances of the models developed.
 
