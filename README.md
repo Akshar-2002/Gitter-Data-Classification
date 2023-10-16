@@ -81,7 +81,7 @@ Each xpredp.csv file consists of 52 columns:
 
 ## Results
 
-The Results Foldef consists of the Box Plot Results of the Accuracy, Sensitivity, Specificity and Geometric Means of:
+The Results Folder consists of the Box Plot Results of the Accuracy, Sensitivity, Specificity and Geometric Means of:
 - Word-embedding techniques
 - Feature Selection Techniques and the Original Feature Set
 - Original Data vs SMOTE Synthesized Data
