@@ -61,7 +61,7 @@ Both One-vs-Rest and One-vs-One for Multi-Class Classification strategies were a
 
 The Embeddings folder consists of the files 1.csv - 54.csv, which are the files generated after applying the word embedding, dimensionality reduction, and data sampling techniques on the dataset.
 
-The Predictions folder consists of files 1pred.csv - 54pred.csv and 1predp.csv - 54predp.csv, which correspond to the prediction of the purpose made by the classification algorithms on the 54 input files.
+The Outputs folder consists of files 1pred.csv - 54pred.csv and 1predp.csv - 54predp.csv, which correspond to the prediction of the purpose made by the classification algorithms on the 54 input files.
 
 Each xpred.csv file consists of 35 columns:
 - The first 34 columns correspond to the predictions of 34 classification algorithms (17 one vs rest and 17 one vs one algorithm) on the x.csv file data.
