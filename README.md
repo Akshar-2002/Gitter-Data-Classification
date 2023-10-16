@@ -2,7 +2,7 @@
 
 Gitter is a modern instant messaging and collaboration platform that has revolutionized team communications and project coordination by providing a user-friendly way of organizing conversations.
 
-The dataset leveraged for this project consists of messages from the developers in open-source communities in Gitter and some relavant characteristics of these messages.
+The dataset leveraged for this project consists of messages from the developers in open-source communities in Gitter and some relevant characteristics of these messages.
 
 The objective of the project is to build various models to classify the purpose of the messages in the discussions on the Gitter Platform and compare the performances of the various Natural Language Processing models developed.
 
@@ -36,37 +36,37 @@ Two dimensionality reduction techniques were used:
 
 ## Data Sampling
 
-Synthetic Minority Oversampling Technique (SMOTE) technique was used to sample data to solve the class imbalance problem.
+The Synthetic Minority Oversampling Technique (SMOTE) technique was used to sample data to solve the class imbalance problem.
 
 Files 28.csv - 54.csv were generated corresponding to the first 27 files using this technique.
 
 ## Classification Algorithms
 
-The following algorithms were applied for classifying the purpose of the messages
+The following algorithms were applied to classify the purpose of the messages
 
 - Naive Bayes (Multinomial, Bernoulli and Gaussian)
 - Decision Tree 
 - Logistic Regression
 - K Nearest Neighbors (KNN)
-- KNN, Mulitnomial NB, Logistic Regression and Decision Tree with Bagging
+- KNN, Multinomial NB, Logistic Regression, and Decision Tree with Bagging
 - Random Forest
 - Extra Trees
 - Ada Boost
 - Gradient Boosting
-- Multi Layer Perceptron with Limited-memory BFGS, Stochastic Gradient Descent and Adam Optimizers 
+- Multi-Layer Perceptron with Limited-memory BFGS, Stochastic Gradient Descent and Adam Optimizers 
 
 Both One-vs-Rest and One-vs-One for Multi-Class Classification strategies were applied for all the algorithms mentioned above.
 
-## Output Files
+## Prediction Files
 
-The Embeddings folder consists of the files 1.csv - 54.csv which are the files generated after applying the word embedding, dimensionality reduction and data sampling techniques on the dataset.
+The Embeddings folder consists of the files 1.csv - 54.csv, which are the files generated after applying the word embedding, dimensionality reduction, and data sampling techniques on the dataset.
 
-The Outputs folder consists of files 1pred.csv - 54pred.csv and 1predp.csv - 54predp.csv which correspond to the prediction of the purpose made by the classification algorithms on the 54 input files.
+The Predictions folder consists of files 1pred.csv - 54pred.csv and 1predp.csv - 54predp.csv, which correspond to the prediction of the purpose made by the classification algorithms on the 54 input files.
 
 Each xpred.csv file consists of 35 columns:
-- The first 34 columns corresponding to the predictions of 34 classification algorithms (17 one vs rest and 17 one vs one algorithms) on the x.csv file data.
+- The first 34 columns correspond to the predictions of 34 classification algorithms (17 one vs rest and 17 one vs one algorithm) on the x.csv file data.
 - The last column corresponds to the ground truth labels.
 
 Each xpredp.csv file consists of 52 columns:
-- Each set of 3 columns consist of the class probabilities for each data point for the 17 one vs rest classification algorithms applied.
+- Each set of 3 columns consists of the class probabilities for each data point for the 17 one vs rest classification algorithms applied.
 - The last column corresponds to the ground truth labels.
